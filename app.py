@@ -229,3 +229,23 @@ if run_button:
 # --- Footer ---
 st.markdown("---")
 st.caption("Data pulled from publicly accessible Shopify endpoints. Ratings may be incomplete or unavailable depending on store structure.")
+
+
+
+
+with st.sidebar:
+    st.markdown("---")
+    st.markdown("### 📬 Contact")
+    st.markdown("""
+    **Name:** K Sharath Chandra Karthik  
+    **Email:** [ksharathkarthik@gmail.com](mailto:ksharathkarthik@gmail.com)  
+    **GitHub:** [github.com/sk-karthi](https://github.com/sk-karthi)  
+    **LinkedIn:** [linkedin.com/in/sharath-karthik-482a2b321](https://www.linkedin.com/in/sharath-karthik-482a2b321/)
+    """)
+
+    st.markdown("### 🙋 About")
+    st.info(
+        "This app checks whether a domain is a Shopify store and scrapes product variant data "
+        "from publicly available product endpoints. It provides key insights such as top vendors, "
+        "average ratings, and price distributions. Built for product intelligence and e-commerce analysis."
+    )
